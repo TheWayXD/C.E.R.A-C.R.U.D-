@@ -1,7 +1,7 @@
 <?php
 /* aqui vamos conectar o banco de dados */
 $servername = "localhost";
-$database = "gr";
+$database = "PedroEva";
 $username = "root";
 $password = "";
 
@@ -82,8 +82,7 @@ if (!empty($selecionado)) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GR</title>
-    <link rel="stylesheet" href="assets/lib/bootstrap-5.3.0/css/bootstrap.css">
+    <title>PedroEva</title>
 </head>
 
 <body>
@@ -160,12 +159,6 @@ if (!empty($selecionado)) {
         ?>
     </table>
     </div>
-
-    <script src="assets/lib/bootstrap-5.3.0/js/bootstrap.js"></script>
-    <script src="assets/lib/jquery-3.7.0/script.js"></script>
-    <script src="assets/lib/jquery-mask-plugin-1.14.16/src/jquery.mask.js"></script>
-    <script src="assets/js/mascara.js"></script>
-
 </body>
 
 </html>

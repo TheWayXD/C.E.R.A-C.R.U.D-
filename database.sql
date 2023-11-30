@@ -5,22 +5,19 @@ SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0;
 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION';
 
 -- -----------------------------------------------------
--- Schema gr
+-- Schema PedroEva
 -- -----------------------------------------------------
 
 -- -----------------------------------------------------
--- Schema gr
+-- Schema PedroEva
 -- -----------------------------------------------------
-CREATE SCHEMA IF NOT EXISTS `gr` DEFAULT CHARACTER SET utf8 ;
+CREATE SCHEMA IF NOT EXISTS `PedroEva` DEFAULT CHARACTER SET utf8 ;
 -- -----------------------------------------------------
 -- Schema meunome
 -- -----------------------------------------------------
-USE `gr` ;
-
+USE `PedroEva` ;
 -- -----------------------------------------------------
--- Table `gr`.`colaboradores`
--- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `gr`.`colaboradores` (
+CREATE TABLE IF NOT EXISTS `PedroEva`.`colaboradores` (
   `id` INT NOT NULL,
   `nome` VARCHAR(255) NULL,
   `cpf` INT(11) NULL,
